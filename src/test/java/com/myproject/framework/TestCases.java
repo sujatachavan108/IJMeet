@@ -22,7 +22,7 @@ public class TestCases {
 		driver = new ChromeDriver();
 		driver.get("https://ijmeet.com");
 	}
-	/**
+	
 	@Test
 	public void verifyGetImage() {
 		WebElement element = driver.findElement(By.cssSelector("img[src=\"https://ijmeet.com/images/LOGO-F@2x.png\"]"));
@@ -60,12 +60,12 @@ public class TestCases {
 
 	@Test
 	public void verifySignUpButton() throws InterruptedException {
-
+System.out.println("Hello");
 		driver.findElement(By.cssSelector("a.nav-right-cutom-bg-1")).click();
 		Thread.sleep(3000);
 	}
 
-	*/
+	
 	@Test
 	public void scrollWindow() throws InterruptedException {
 		Thread.sleep(3000);
